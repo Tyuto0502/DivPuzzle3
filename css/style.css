@@ -16,15 +16,19 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  padding: 10px 0 10px 10px;
+  padding: 10px;
 }
 
 .purple-box {
   width: 40px;
   height: 40px;
   background: #a9004b;
-  float: right;
+  float: left;
   margin-right: 10px;
+}
+
+.purple-box:last-child {
+  margin-right: 0;
 }
 
 .light-green {
@@ -39,6 +43,13 @@
   height: 250px;
   background: #8c2727;
   float: left;
+  position: relative;
+}
+
+.boxes2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
 }
 
 .orange-box {
@@ -47,9 +58,10 @@
   background: #ff863f;
   margin-bottom: 10px;
   border: 5px solid #ffffff;
-  position: relative;
-  top: 40px;
-  left: 40px;
+}
+
+.orange-box:last-child {
+  margin-bottom: 0;
 }
 
 .yellow {
